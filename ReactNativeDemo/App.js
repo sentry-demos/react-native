@@ -65,75 +65,115 @@ export default class App extends Component<{}> {
       level: SentrySeverity.Warning
     });
   }
+  _notAFunctionError() {
+    var obj = {};
+    obj.invalidFunction();
+  }
+  _uriError() {
+    decodeURIComponent('%');
+  }
+
+  _typeError() {
+    null.f();
+  }
+
+  _syntaxError() {
+    eval('foo bar');
+  }
+
+  _referenceError() {
+    var a = undefinedVariable;
+  }
+
+  _rangeError() {
+    throw new RangeError('Parameter must be between 1 and 100');
+  }
+
+  _evalError() {
+    setTimeout(() => {
+      throw new EvalError('Hello', 'someFile.js', 10);
+    }, 1000);
+  }
+
   _throwError() {
     throw new Error('Sentry: Test throw error');
   }
   _rejectPromise() {
     Promise.reject('Boom promise');
   }
-  _setVersion() {
-    Sentry.setVersion('1337');
-  }
-  _setRelease() {
-    Sentry.setRelease('myversion');
-  }
-  _setDist() {
-    Sentry.setDist('500');
-  }
+
   _nativeCrash() {
     Sentry.nativeCrash();
   }
   render() {
     return (
       <View style={styles.container}>
-        <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
-          onPress={() => this._setVersion()}
-          accessibilityLabel={'set version'}
-          title="Set version"
+        <TextInput
+          style={{ height: 40, borderColor: 'black', borderWidth: 1, width: '80%' }}
+          accessibilityLabel={'email'}
         />
         <Button
-          style={{fontSize: 20, color: 'green'}}
+          style={{fontSize: 12, color: 'green'}}
           styleDisabled={{color: 'red'}}
-          onPress={() => this._setRelease()}
-          accessibilityLabel={'set release'}
-          title="Set release"
+          onPress={() => this._notAFunctionError()}
+          accessibilityLabel={'TypeError: obj.invalidFunction is not a function'}
+          title="TypeError: obj.invalidFunction is not a function"
         />
         <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
-          onPress={() => this._setDist()}
-          accessibilityLabel={'set dist'}
-          title="Set dist"
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._uriError()}
+          accessibilityLabel={'URIError: URI malformed'}
+          title="URIError: URI malformed"
         />
         <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
-          onPress={() => this._throwError()}
-          accessibilityLabel={'throw error'}
-          title="throw error!"
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._typeError()}
+          accessibilityLabel={"Uncaught TypeError: Cannot read property 'f' of null"}
+          title = "Uncaught TypeError: Cannot read property 'f' of null"
         />
         <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._uriError()}
+          accessibilityLabel={'SyntaxError: Unexepected identifier'}
+          title="SyntaxError: Unexepected identifier"
+        />
+        <Button
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._referenceError()}
+          accessibilityLabel={'ReferenceError: undefinedVariable is not defined'}
+          title="ReferenceError: undefinedVariable is not defined"
+        />
+        <Button
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._rangeError()}
+          accessibilityLabel={'RangeError: Parameter must be between 1 and 100'}
+          title="RangeError: Parameter must be between 1 and 100"
+        />
+        <Button
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
+          onPress={() => this._evalError()}
+          accessibilityLabel={'EvalError: Hello'}
+          title="EvalError: Hello"
+        />
+        <Button
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
           onPress={() => this._rejectPromise()}
           accessibilityLabel={'reject promise'}
           title="reject promise"
         />
         <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
+          style={{ fontSize: 12, color: 'green' }}
+          styleDisabled={{ color: 'red' }}
           onPress={() => this._nativeCrash()}
           accessibilityLabel={'native crash'}
           title="native crash!"
-        />
-        <Button
-          style={{fontSize: 20, color: 'green'}}
-          styleDisabled={{color: 'red'}}
-          onPress={() => this._sendMessage()}
-          accessibilityLabel={'send message'}
-          title="send message"
         />
         <TextInput
           style={{height: 40, borderColor: 'gray', borderWidth: 1, width: '80%'}}
