@@ -65,10 +65,12 @@ export default class App extends Component<{}> {
       level: SentrySeverity.Warning
     });
   }
+
   _notAFunctionError() {
     var obj = {};
     obj.invalidFunction();
   }
+
   _uriError() {
     decodeURIComponent('%');
   }
@@ -98,6 +100,7 @@ export default class App extends Component<{}> {
   _throwError() {
     throw new Error('Sentry: Test throw error');
   }
+
   _rejectPromise() {
     Promise.reject('Boom promise');
   }
@@ -105,6 +108,13 @@ export default class App extends Component<{}> {
   _nativeCrash() {
     Sentry.nativeCrash();
   }
+
+  _sendMessage() {
+    Sentry.captureMessage('TEST message', {
+      level: SentrySeverity.Warning
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -123,20 +133,6 @@ export default class App extends Component<{}> {
           style={{ fontSize: 12, color: 'green' }}
           styleDisabled={{ color: 'red' }}
           onPress={() => this._uriError()}
-          accessibilityLabel={'URIError: URI malformed'}
-          title="URIError: URI malformed"
-        />
-        <Button
-          style={{ fontSize: 12, color: 'green' }}
-          styleDisabled={{ color: 'red' }}
-          onPress={() => this._typeError()}
-          accessibilityLabel={"Uncaught TypeError: Cannot read property 'f' of null"}
-          title = "Uncaught TypeError: Cannot read property 'f' of null"
-        />
-        <Button
-          style={{ fontSize: 12, color: 'green' }}
-          styleDisabled={{ color: 'red' }}
-          onPress={() => this._uriError()}
           accessibilityLabel={'SyntaxError: Unexepected identifier'}
           title="SyntaxError: Unexepected identifier"
         />
@@ -150,30 +146,16 @@ export default class App extends Component<{}> {
         <Button
           style={{ fontSize: 12, color: 'green' }}
           styleDisabled={{ color: 'red' }}
-          onPress={() => this._rangeError()}
-          accessibilityLabel={'RangeError: Parameter must be between 1 and 100'}
-          title="RangeError: Parameter must be between 1 and 100"
-        />
-        <Button
-          style={{ fontSize: 12, color: 'green' }}
-          styleDisabled={{ color: 'red' }}
-          onPress={() => this._evalError()}
-          accessibilityLabel={'EvalError: Hello'}
-          title="EvalError: Hello"
-        />
-        <Button
-          style={{ fontSize: 12, color: 'green' }}
-          styleDisabled={{ color: 'red' }}
-          onPress={() => this._rejectPromise()}
-          accessibilityLabel={'reject promise'}
-          title="reject promise"
-        />
-        <Button
-          style={{ fontSize: 12, color: 'green' }}
-          styleDisabled={{ color: 'red' }}
           onPress={() => this._nativeCrash()}
           accessibilityLabel={'native crash'}
           title="native crash!"
+        />
+        <Button
+          style={{fontSize: 20, color: 'green'}}
+          styleDisabled={{color: 'red'}}
+          onPress={() => this._sendMessage()}
+          accessibilityLabel={'send message'}
+          title="send message"
         />
         <TextInput
           style={{height: 40, borderColor: 'gray', borderWidth: 1, width: '80%'}}
