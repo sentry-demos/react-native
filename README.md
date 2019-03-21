@@ -1,4 +1,4 @@
-# sentry-demos/react
+# sentry-demos/react-native
 
 https://docs.sentry.io/clients/react-native/
 
