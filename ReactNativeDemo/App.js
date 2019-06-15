@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button, TextInput, ImageBackground, Image} from 'react-native';
 import {Sentry, SentrySeverity, SentryLog} from 'react-native-sentry';
 
-Sentry.config('https://425ec64f4e9e46c9a5a05ecb0d7b8750:93493654ed784a35ba2519f5b76fe154@sentry.io/1226692', {
+Sentry.config('https://4f4c77ac999c47248f4b202aaa39c9f0@sentry.io/1481922', {
   logLevel: SentryLog.Debug,
   deactivateStacktraceMerging: false
 }).install();

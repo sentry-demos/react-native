@@ -16,11 +16,13 @@ npm install && yarn install
 2. Configure Raven with your `PUBLIC_DSN_KEY` in App.js
 
 ```
-$ react-native run-ios --configuration Release # for iOS
+# Release # for iOS
+$ react-native run-ios --configuration 
 ```
 
 ```
-$ react-native run-android --variant Release # for Android
+# Release # for Android
+$ react-native run-android --variant
 ```
 
 6. Simulator/Emulator should have launched with sample app. Trigger errors and go to Sentry to see them!
