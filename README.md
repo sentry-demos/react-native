@@ -14,10 +14,11 @@ npm install && yarn install
 ```
 
 2. Configure Raven with your `PUBLIC_DSN_KEY` in App.js
+3. Configure sentry.properties with your organization, project and auth token
 
 ```
-# Release # for iOS
-$ react-native run-ios --configuration 
+# for iOS
+$ react-native run-ios --configuration Release
 ```
 
 ```
