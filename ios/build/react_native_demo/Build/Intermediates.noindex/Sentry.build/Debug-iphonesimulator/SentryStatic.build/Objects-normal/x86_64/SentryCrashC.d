@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashC.c \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashC.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitorType.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashReportWriter.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashCachedData.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashThread.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashReport.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitorContext.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashMachineContext.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashReportFixer.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashReportStore.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor_Deadlock.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor_User.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashFileUtils.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashObjC.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashString.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor_System.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor_Zombie.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitor_AppState.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashSystemCapabilities.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Tools/SentryCrashLogger.h

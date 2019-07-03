@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native/Libraries/Image/RCTImageCache.m \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTBridge.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTDefines.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTConvert.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTLog.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTAssert.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTUtils.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/yoga/Yoga.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/yoga/YGValue.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/wcap/thinkocapo/react_native_demo/ios/build/react_native_demo/Build/Products/Release-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native/Libraries/Image/RCTImageUtils.h

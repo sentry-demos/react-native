@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/SentryClient.m \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/Sentry.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryClient.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryDefines.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryClient+Internal.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryDebugMeta.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentrySerializable.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryLog.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryDsn.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryError.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryUser.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryQueueableRequestManager.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryEvent.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryNSURLRequest.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryInstallation.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrash.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/SentryCrashReportWriter.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Reporting/Filters/SentryCrashReportFilter.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Recording/Monitors/SentryCrashMonitorType.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/SentryCrash/Installations/SentryCrashInstallation.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryBreadcrumbStore.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryFileManager.h \
+  /Users/wcap/thinkocapo/react_native_demo/node_modules/react-native-sentry/ios/Sentry/Sources/Sentry/include/SentryBreadcrumbTracker.h
