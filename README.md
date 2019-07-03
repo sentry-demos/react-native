@@ -8,6 +8,7 @@ Show how Sentry works to surface errors in react-native applications (stacktrace
 ## First-time Setup
 React Native v0.59.10
 react-native-sentry ^0.43.2
+react-native-cli: 2.0.1
 1. Install dependencies
 ```
 npm install -g react-native-cli
