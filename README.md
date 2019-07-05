@@ -6,7 +6,7 @@ https://docs.sentry.io/clients/react-native/
 Show how Sentry works to surface errors in react-native applications (stacktraces will be symbolicated + unminified)
 
 ## First-time Setup
-this project uses:
+this project uses:  
 React Native v0.59.10  
 react-native-sentry ^0.43.2  
 react-native-cli: 2.0.1  
