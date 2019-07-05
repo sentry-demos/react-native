@@ -6,17 +6,18 @@ https://docs.sentry.io/clients/react-native/
 Show how Sentry works to surface errors in react-native applications (stacktraces will be symbolicated + unminified)
 
 ## First-time Setup
+this project uses:
 React Native v0.59.10
 react-native-sentry ^0.43.2
 react-native-cli: 2.0.1
-1. Install dependencies
+1. cd ReactNativeDemo
+2. Install dependencies
 ```
 npm install -g react-native-cli
 npm install && yarn install
 ```
-
-2. Configure the SDK with your `PUBLIC_DSN_KEY` in App.js
-3. Configure sentry.properties with your organization, project and auth token
+3. Configure the SDK with your `PUBLIC_DSN_KEY` in App.js
+4. Configure sentry.properties with your organization, project and auth token
 
 ```
 # for iOS
@@ -28,7 +29,7 @@ $ react-native run-ios --configuration Release
 $ react-native run-android --variant
 ```
 
-6. Simulator/Emulator should have launched with sample app. Trigger errors and go to Sentry to see them!
+5. Simulator/Emulator should have launched with sample app. Trigger errors and go to Sentry to see them!
 
 # GIF (JS error)
 ![Alt Text](react-native-demo.gif)
