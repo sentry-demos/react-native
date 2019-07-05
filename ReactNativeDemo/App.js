@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button, TextInput, ImageBackground, Image} from 'react-native';
-import {Sentry, SentrySeverity, SentryLog} from 'react-native-sentry';
+import {Button, Platform, StyleSheet, Text, View, TextInput, ImageBackground, Image} from 'react-native';
 
-Sentry.config('https://425ec64f4e9e46c9a5a05ecb0d7b8750:93493654ed784a35ba2519f5b76fe154@sentry.io/1226692', {
+import { Sentry, SentrySeverity, SentryLog } from 'react-native-sentry';
+Sentry.config('<your_dsn_key>', {
   logLevel: SentryLog.Debug,
   deactivateStacktraceMerging: false
 }).install();
 
-export default class App extends Component<{}> {
+
+
+type Props = {};
+export default class App extends Component<Props> {
   render() {
     return (
       <ImageBackground source={require('./assets/sentry-pattern.png')} style={{ width: '100%', height: '100%' }}>
@@ -64,6 +67,7 @@ export default class App extends Component<{}> {
   }
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -86,3 +90,4 @@ const styles = StyleSheet.create({
     width: '80%'
   }
 });
+
