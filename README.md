@@ -18,6 +18,8 @@ npm install && yarn install
 ```
 3. Configure the SDK with your `PUBLIC_DSN_KEY` in App.js
 4. Configure sentry.properties with your organization, project and auth token
+5. `react-native link react-native-sentry`
+6. Run it
 
 ```
 # for iOS
