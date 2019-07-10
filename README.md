@@ -17,13 +17,13 @@ from ./react-native project root...
 8. did not make a ios/sentry.properties file
 
 ## Setup
-1. node  
+1. create a React-Native project on Sentry.io
+2. node  
 ```
 nvm current
 v10.15.3
 ```
-from project root...  
-2. 
+3. from project root:
 ```
 cd ReactNativeDemo
 npm install -g react-native-cli@2.0.1
