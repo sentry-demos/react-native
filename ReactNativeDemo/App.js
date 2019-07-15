@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import {Button, Platform, StyleSheet, Text, View, TextInput, ImageBackground, Image} from 'react-native';
 
-import { Sentry, SentrySeverity, SentryLog } from 'react-native-sentry';
-Sentry.config('<your_dsn_key>', {
+import {Sentry, SentrySeverity, SentryLog} from 'react-native-sentry';
+
+Sentry.config('https://4f4c77ac999c47248f4b202aaa39c9f0@sentry.io/1481922', {
   logLevel: SentryLog.Debug,
   deactivateStacktraceMerging: false
 }).install();
-
-
 
 type Props = {};
 export default class App extends Component<Props> {
