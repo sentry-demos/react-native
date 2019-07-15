@@ -5,7 +5,7 @@ https://docs.sentry.io/clients/react-native/
 Show how Sentry works to surface errors in react-native applications (stacktraces will be symbolicated + unminified)
 
 ## Setup
-`2`. Install dependencies listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk (all except for node):
+1. Install dependencies listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk (all except for node):
 ```
 brew install watchman
 brew tap AdoptOpenJDK/openjdk
