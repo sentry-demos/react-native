@@ -5,15 +5,17 @@ https://docs.sentry.io/clients/react-native/
 Show how Sentry works to surface errors in react-native applications (stacktraces will be symbolicated + unminified)
 
 ## Setup
-1. Create a React Native project on Sentry.io
-2. Install all dependencies (node, watchmen, JDK) listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk
-3. Install cocoapods (`gem install cocoapods`)
-3. Install react-native-cli: `npm install -g react-native-cli@2.0.1`
-4. `cd ReactNativeDemo`
-5. Use nvm version specified in .nvmrc: `nvm use`
+`2`. Install dependencies listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk (all except for node):
+```
+brew install watchman
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+```
+2. Install cocoapods (`gem install cocoapods`)
+3. Use nvm version specified in .nvmrc: `nvm use`
+4. Install react-native-cli: `npm install -g react-native-cli@2.0.1`
+5. `cd ReactNativeDemo`
 6. Install packages: `npm install`
-7. Replace DSN in App.js with project's DSN
-8. Replace org and project in ios/sentry.properties + android/sentry.properties
 
 # Run
 ### iOS:
