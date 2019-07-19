@@ -16,8 +16,10 @@ brew cask install adoptopenjdk8
 4. Install react-native-cli: `npm install -g react-native-cli@2.0.1`
 5. `cd ReactNativeDemo`
 6. Install packages: `npm install`
+7. Make sure `SENTRY_AUTH_TOKEN` environment variable is set (https://docs.sentry.io/cli/configuration/#to-authenticate-manually)
 
 # Run
+
 ### iOS:
 ```
 $ react-native run-ios --configuration Release
