@@ -23,6 +23,7 @@ brew cask install adoptopenjdk8
 ### iOS:
 ```
 $ react-native run-ios --configuration Release
+$ react-native run-ios --simulator "iPhone 11"
 ```
 ### Android
 ```
