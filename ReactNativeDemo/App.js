@@ -2,13 +2,12 @@ import React, {Component} from 'react';
 import {Button, Platform, StyleSheet, Text, View, TextInput, ImageBackground, Image} from 'react-native';
 
 import {Sentry, SentrySeverity, SentryLog} from 'react-native-sentry';
-import console = require('console');
 
 Sentry.config('https://4f4c77ac999c47248f4b202aaa39c9f0@sentry.io/1481922', {
   logLevel: SentryLog.Debug,
   deactivateStacktraceMerging: false,
   beforeSend(event) {
-    console.log('I AM BEFORE SEND')
+    event.tags['tag_added'] = 'from beforeSend'
     return event;
   }
 }).install();
