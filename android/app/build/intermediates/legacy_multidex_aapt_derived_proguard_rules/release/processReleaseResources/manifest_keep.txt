@@ -1,0 +1,4 @@
+# Referenced at /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:14
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:14
+-keep class com.sentry_react_native.MainApplication { <init>(); }

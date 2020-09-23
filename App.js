@@ -17,7 +17,7 @@ const Separator = () => (
 );
 
 Sentry.init({
-  dsn: "<Your DSN Here>",
+  dsn: "https://6bd1a94f16484c55aef8b50063b5a1c5@o87286.ingest.sentry.io/5432830",
   deactivateStacktraceMerging: false,
   enableAutoSessionTracking: true,
   sessionTrackingIntervalMillis: 10000,

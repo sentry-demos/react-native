@@ -66,7 +66,7 @@ $pod --version
 
 ### Java
 ```
-$java -version
+$java --version
 openjdk version "1.8.0_242-release"
 OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
 OpenJDK 64-Bit Server VM (build 25.242-b3-6222593, mixed mode)
@@ -83,6 +83,12 @@ brew cask install adoptopenjdk8
 4. Make sure `SENTRY_AUTH_TOKEN` environment variable is set (https://docs.sentry.io/cli/configuration/#to-authenticate-manually)
 5. Make sure DSN key is set in App.js
 
+# Change project
+1. Replace DSN in App.js
+2. Replace org and project in ios/sentry.properties + android/sentry.properties.
+
+![Alt Text](sentryproperties.png)
+
 # Run
 
 ### iOS:
@@ -95,9 +101,7 @@ $ npx react-native run-ios --configuration Release
 npx react-native run-android --variant Release
 ```
 
-# Change project
-1. Replace DSN in App.js
-2. Replace org and project in ios/sentry.properties + android/sentry.properties.
+
 
 ### Gotchas
 1. Make sure to always be using the latest version of node, it can solve a lot of problems.
