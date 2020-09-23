@@ -81,7 +81,7 @@ brew cask install adoptopenjdk8
 2. Install cocoapods (`gem install cocoapods`)
 3. Install packages: `npm install`
 4. Make sure `SENTRY_AUTH_TOKEN` environment variable is set (https://docs.sentry.io/cli/configuration/#to-authenticate-manually)
-5. Make sure DSN key is set in App.js
+
 
 # Run
 
