@@ -72,7 +72,7 @@ OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
 OpenJDK 64-Bit Server VM (build 25.242-b3-6222593, mixed mode)
 ```
 
-1. Install dependencies listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk (all except for node):
+1. Install dependencies:
 ```
 brew install watchman
 brew tap AdoptOpenJDK/openjdk
@@ -81,7 +81,7 @@ brew cask install adoptopenjdk8
 2. Install cocoapods (`gem install cocoapods`)
 3. Install packages: `npm install`
 4. Make sure `SENTRY_AUTH_TOKEN` environment variable is set (https://docs.sentry.io/cli/configuration/#to-authenticate-manually)
-5. Make sure DSN key is set in App.js
+
 
 # Change project
 1. Replace DSN in App.js
