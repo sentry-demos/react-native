@@ -72,7 +72,7 @@ OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
 OpenJDK 64-Bit Server VM (build 25.242-b3-6222593, mixed mode)
 ```
 
-1. Install dependencies listed under https://facebook.github.io/react-native/docs/getting-started.html#node-watchman-jdk (all except for node):
+1. Install dependencies:
 ```
 brew install watchman
 brew tap AdoptOpenJDK/openjdk
