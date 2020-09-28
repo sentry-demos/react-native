@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-20:12
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4c68caba1e7b217d8053f0396e9339fb/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c5c729c21251e9a4b2593a9bb8fd7fb9/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/01c6ae9b6cbfbb07ccc5cfe28f52e20d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/07acd90a69dcd0ba6f0bbec8df5f8718/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/268f572d75795aa2cb7ea6d4b36d4269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/568ad9f4553d01d53a292ec6245d6cea/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3f88040c3ece5a895cf0f6ffed32b5a2/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ad2e61aeec3977c6069b365ec6e46819/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/8c8eb2002e286dd821976fa6494d8281/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/089eff2ae4d4427c906b65821f00a00a/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/e57622acdd75e3e69dd88062d204f9be/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a5c51e7a453cfd45557b21b898d92d63/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c67f4f1041f73c195cf520bc23b19473/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/0015d89e29cd2a6fed649d8eb0e994bb/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/48f144b5ca95717b86e929b3938f09f8/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/191a2a70a59b7d2da080245a3be467f4/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f544b5e9776631ec67b74801fbb5da4c/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4219b5a6d22e34f8b719171d3a1fa43b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/85415e9b7552c6b6f5dcc43354646d15/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bf94fbf2bf5f5aa5562b26611e451ea7/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/02b1c70979ea1010935998189276b651/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/1f0613d92538986fb046849581ac89c7/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bc3fb7435814db7363445a7aefa6a376/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f945758adb194b91c01c3955fc665313/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4364ad76604cf486136125f92b6c8f4c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae101856600f7992838ee059e045c8d5/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f3e2dce65eacafd123c90c8836548fcb/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae7a03008c39ce8ff6b002407d08aeb5/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.sentry:sentry-android:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bd3c427cf2d06121eaa49519710ea19b/sentry-android-2.3.1/AndroidManifest.xml:2:1-13:12
+MERGED from [io.sentry:sentry-android-ndk:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4aa13856276d7a7e188bf32c963ba064/sentry-android-ndk-2.3.1/AndroidManifest.xml:2:1-11:12
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e6a1bfc74562c4f2502d33ad020a007/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/9b6dd764d42012524e9e5c32e438f0d0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3fae1f30c041955b396e5a9fa1cd4461/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/2a1f556fafce4ebb8d4922dc556c94da/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e547ccec9eca4b61cae271a573b7cc9/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/071d218453c713d0fe5584cac3ae3b60/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:2:3-36
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:11:5-67
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-18:19
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-18:19
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4c68caba1e7b217d8053f0396e9339fb/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4c68caba1e7b217d8053f0396e9339fb/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/48f144b5ca95717b86e929b3938f09f8/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/48f144b5ca95717b86e929b3938f09f8/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bc3fb7435814db7363445a7aefa6a376/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bc3fb7435814db7363445a7aefa6a376/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:13:5-20:19
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:13:5-20:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/071d218453c713d0fe5584cac3ae3b60/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/071d218453c713d0fe5584cac3ae3b60/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:8:7-39
+	android:roundIcon
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:10:7-52
+	android:icon
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.sentry_react_native.MainActivity
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:13:7-23:18
+	android:label
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:16:9-86
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4c68caba1e7b217d8053f0396e9339fb/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4c68caba1e7b217d8053f0396e9339fb/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c5c729c21251e9a4b2593a9bb8fd7fb9/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c5c729c21251e9a4b2593a9bb8fd7fb9/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/01c6ae9b6cbfbb07ccc5cfe28f52e20d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/01c6ae9b6cbfbb07ccc5cfe28f52e20d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/07acd90a69dcd0ba6f0bbec8df5f8718/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/07acd90a69dcd0ba6f0bbec8df5f8718/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/268f572d75795aa2cb7ea6d4b36d4269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/268f572d75795aa2cb7ea6d4b36d4269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/568ad9f4553d01d53a292ec6245d6cea/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/568ad9f4553d01d53a292ec6245d6cea/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3f88040c3ece5a895cf0f6ffed32b5a2/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3f88040c3ece5a895cf0f6ffed32b5a2/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ad2e61aeec3977c6069b365ec6e46819/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ad2e61aeec3977c6069b365ec6e46819/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/8c8eb2002e286dd821976fa6494d8281/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/8c8eb2002e286dd821976fa6494d8281/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/089eff2ae4d4427c906b65821f00a00a/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/089eff2ae4d4427c906b65821f00a00a/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/e57622acdd75e3e69dd88062d204f9be/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/e57622acdd75e3e69dd88062d204f9be/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a5c51e7a453cfd45557b21b898d92d63/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a5c51e7a453cfd45557b21b898d92d63/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c67f4f1041f73c195cf520bc23b19473/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c67f4f1041f73c195cf520bc23b19473/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/0015d89e29cd2a6fed649d8eb0e994bb/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/0015d89e29cd2a6fed649d8eb0e994bb/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/48f144b5ca95717b86e929b3938f09f8/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/48f144b5ca95717b86e929b3938f09f8/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/191a2a70a59b7d2da080245a3be467f4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/191a2a70a59b7d2da080245a3be467f4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f544b5e9776631ec67b74801fbb5da4c/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f544b5e9776631ec67b74801fbb5da4c/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4219b5a6d22e34f8b719171d3a1fa43b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4219b5a6d22e34f8b719171d3a1fa43b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/85415e9b7552c6b6f5dcc43354646d15/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/85415e9b7552c6b6f5dcc43354646d15/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bf94fbf2bf5f5aa5562b26611e451ea7/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bf94fbf2bf5f5aa5562b26611e451ea7/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/02b1c70979ea1010935998189276b651/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/02b1c70979ea1010935998189276b651/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/1f0613d92538986fb046849581ac89c7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/1f0613d92538986fb046849581ac89c7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bc3fb7435814db7363445a7aefa6a376/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bc3fb7435814db7363445a7aefa6a376/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f945758adb194b91c01c3955fc665313/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f945758adb194b91c01c3955fc665313/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4364ad76604cf486136125f92b6c8f4c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4364ad76604cf486136125f92b6c8f4c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae101856600f7992838ee059e045c8d5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae101856600f7992838ee059e045c8d5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f3e2dce65eacafd123c90c8836548fcb/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/f3e2dce65eacafd123c90c8836548fcb/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae7a03008c39ce8ff6b002407d08aeb5/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/ae7a03008c39ce8ff6b002407d08aeb5/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.sentry:sentry-android:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bd3c427cf2d06121eaa49519710ea19b/sentry-android-2.3.1/AndroidManifest.xml:8:5-11:57
+MERGED from [io.sentry:sentry-android:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bd3c427cf2d06121eaa49519710ea19b/sentry-android-2.3.1/AndroidManifest.xml:8:5-11:57
+MERGED from [io.sentry:sentry-android-ndk:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4aa13856276d7a7e188bf32c963ba064/sentry-android-ndk-2.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-ndk:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4aa13856276d7a7e188bf32c963ba064/sentry-android-ndk-2.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e6a1bfc74562c4f2502d33ad020a007/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e6a1bfc74562c4f2502d33ad020a007/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/9b6dd764d42012524e9e5c32e438f0d0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/9b6dd764d42012524e9e5c32e438f0d0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3fae1f30c041955b396e5a9fa1cd4461/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/3fae1f30c041955b396e5a9fa1cd4461/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/2a1f556fafce4ebb8d4922dc556c94da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/2a1f556fafce4ebb8d4922dc556c94da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e547ccec9eca4b61cae271a573b7cc9/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/4e547ccec9eca4b61cae271a573b7cc9/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/071d218453c713d0fe5584cac3ae3b60/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/071d218453c713d0fe5584cac3ae3b60/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [io.sentry:sentry-android:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/bd3c427cf2d06121eaa49519710ea19b/sentry-android-2.3.1/AndroidManifest.xml:11:9-54
+	android:targetSdkVersion
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-76
+meta-data#io.sentry.auto-init
+ADDED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-17:37
+	android:value
+		ADDED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-34
+	android:name
+		ADDED from [:sentry_react-native] /Users/adamtoth-fejel/Documents/GitHub/react-native/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+provider#io.sentry.android.core.SentryInitProvider
+ADDED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:16:9-19:40
+	android:authorities
+		ADDED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:18:13-70
+	android:exported
+		ADDED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [io.sentry:sentry-android-core:2.3.1] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/a75de5ee64debf057ac00617e09e5bc1/jetified-sentry-android-core-2.3.1/AndroidManifest.xml:17:13-69
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adamtoth-fejel/.gradle/caches/transforms-2/files-2.1/70a35ff34a52e788ebdff6ceaf2ae604/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

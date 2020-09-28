@@ -1,0 +1,4 @@
+#Wed Sep 23 13:38:19 PDT 2020
+base.0=/Users/adamtoth-fejel/Documents/GitHub/react-native/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
