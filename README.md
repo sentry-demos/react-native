@@ -1,17 +1,20 @@
 # sentry-demos/react-native
 https://docs.sentry.io/clients/react-native/
-## Versions Summary:
-| dependency      | version
-| ------------- |:-------------:|
-| node      | 14.4.0  |
-| sentry-cli   | 1.55.2    |
-| macOS | Catalina 10.15.4      |
-## Goal/Summary:
+
+## Overview:
 Show how Sentry works on React Native
 - Show Javascript errors that can be captured
 - Showcase native Java errors on Android
 - Showcase native iOS errors
 - Showcase Release Health
+
+## Versions:
+| dependency      | version
+| ------------- |:-------------:|
+| node      | 14.4.0  |
+| sentry-cli   | 1.55.2    |
+| macOS | Catalina 10.15.4      |
+
 
 ## Setup
 
@@ -89,7 +92,7 @@ brew cask install adoptopenjdk8
 
 ![Alt Text](sentryproperties.png)
 
-# Run
+### Run
 
 ### iOS:
 ```
