@@ -1,3 +1,5 @@
+THIS IS OLD. DO NOT USE
+
 # sentry-demos/react-native
 https://docs.sentry.io/clients/react-native/
 
